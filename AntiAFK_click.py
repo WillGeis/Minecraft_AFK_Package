@@ -9,7 +9,7 @@ def click():
         while True:
             time = random.randint(1, 100)
             pyautogui.click()
-            print("Mouse clicked." + time)
+            print(f"Mouse clicked {time} seconds")
             time.sleep(10 + time)
     elif choice.casefold() == 'T'.casefold():
         clickfixed()
